@@ -9,12 +9,20 @@ body
         text-align: center;
       }
 
-Header, Footer
+Header
       {
         background: #F0F8FF;
         padding: 20px;
         margin: 10px;
+        text-shadow: 2px 2px #9ACD32
       }
+      
+Footer
+  {
+    background: #F0F8FF;
+    padding: 20px;
+    margin: 10px;
+  }
 
 article img {
   height: 180px;
@@ -28,7 +36,13 @@ Article
         padding: 10px;
       }
 
-h1, p
+h1, h2
+    {
+      background: #F0F8FF
+      text-shadow: 2px 2px #9ACD32
+    }
+
+p
       {
         color: black;
         background: #F0F8FF
@@ -43,8 +57,8 @@ section
         overflow: hidden;
         margin-bottom: 10px;
         margin-left: 10px;
-        text-shadow: 2px 2px #9ACD32
       }
+
 
 aside {
       background: #F0F8FF;

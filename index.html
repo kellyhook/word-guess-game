@@ -10,34 +10,33 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 <body>
 
   <header>
-    <h1>Dinosaur Word Guess</h1>
+    <h1>Dinosaur Word Guess </h1>
   </header>
 
   <section>
     <heading>
-      <h2>Dinosaur section</h2>
+      <h2> Dinosaurs </h2>
     </heading>
     <article>
-      <img src="assets/images/cartoon-1299393_1280.png" alt="Dino1">
+      <img id="dinosaur" src="assets/images/cartoon-1299393_1280.png" alt="Dino1">
     </article>
   </section>
 
   <aside>
     <heading>
 
-      <h2>Guessing section</h2>
+      <h2> Guesses </h2>
 
       <form id="hangmanForm">
         <input id="letter" type="text">
-        <input type="button" value="letter" onClick="Letter()" />
-        <p id="answer"></p>
-        <p id="counter"></p>
-        <p id="stat"></p>
+        <input type="button" value="letter" onClick="getLetter()" />
+        <p id="answer">hashes will go here</p>
+        <p id="counter">no of clicks will go here</p>
+        <p id="stat">Press "enter to reset"</p>
       </form>
 
 
@@ -47,8 +46,10 @@
   <div class="clear"></div>
 
   <footer>
-    <h3>Random dinosaur facts</h3>
+    <p> "Dinosaurs: Interesting to discuss, difficult to spell" <br><i> - unknown </i></p>
   </footer>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 
